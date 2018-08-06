@@ -1,0 +1,32 @@
+{
+  "name": "clear_cache_module",
+  "version": "0.0.1",
+  "description": "防止内存泄漏，轻量、强悍的前端缓存工具！",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release" : "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmzhanggy/clear_cache_module.git"
+  },
+  "keywords": [
+    "cache"
+  ],
+  "author": "https://github.com/pmzhanggy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pmzhanggy/clear_cache_module/issues"
+  },
+  "homepage": "https://github.com/pmzhanggy/clear_cache_module#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "webpack": "^4.16.4",
+    "webpack-cli": "^3.1.0"
+  }
+}
